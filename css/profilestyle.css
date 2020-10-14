@@ -1,0 +1,15 @@
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-image: url("img/eb5050.jfif");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+body {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    min-height: 100vh
+}

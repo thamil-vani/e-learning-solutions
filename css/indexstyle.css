@@ -1,0 +1,90 @@
+.form-box {
+  padding: 40px;
+  background: #fff;
+  border-radius: 7px; }
+.myButton {
+	box-shadow: 0px 0px 0px 0px #45e319;
+	background-color:#eb5050;
+	border-radius:28px;
+	border:2px solid #161515;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#0c0c0c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer1 {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+	border:2px solid #eb5050;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
