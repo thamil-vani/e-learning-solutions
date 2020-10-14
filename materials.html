@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">edu-Klass</a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="progress.html">Progress</a>
+          </li>
+          <li class="nav-item">
+        <a class="nav-link " href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="contact.html">Contact</a>
+      </li>
+        </ul>
+        <form>
+          <a href="login.html">
+      <button class="myButton" type="button">Logout</button>
+      </a>
+        </form>
+      </div>
+    </nav>
+<div class="container">
+    <br>
+<br>
+<h2>Materials</h2>
+<br>
+<h4>Chapter 1</h4>
+<p>Contents -> either in the form of text or in the form of video will be displayed here</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+<h4>Chapter 2</h4>
+<p>Contents -> either in the form of text or in the form of video will be displayed here</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+<h4>Chapter 3</h4>
+<p>Contents -> either in the form of text or in the form of video will be displayed here</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+<h4>Chapter 4</h4>
+<p>Contents -> either in the form of text or in the form of video will be displayed here</p>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  
+  Your browser does not support the video tag.
+</video>
+
+<br><br>
+<center><button class="myButton" onclick="openForm()">Take Quiz</button></center>
+<br><br>
+<a href="courses.html">
+ <center><button class="myButton" type="submit">Finish Course</button></center>
+ </a>
+ <br><br><br>
+</div>
+
+<div class="form-popup" id="myForm">
+  <form action="description.html" class="form-container">
+    <h1>Quiz</h1>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+  <label for="ques1"><b>In which year python was created?</b></label>
+  <br>
+      <input type="radio" name="age" value="adolescent"> 1991
+      <br>
+      <input type="radio" name="age" value="mid"> 1996
+      <br>
+      <input type="radio" name="age" value="senior"> 2000
+      <br> <br>
+      <b>Select the color of #ffffff</b>
+      <br>
+      <select name="color">
+        <option value="blue">Blue</option>
+        <option value="green">Black</option>
+        <option value="yellow">Yellow</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+      </select>
+      <br><br>
+      <b>Write about CSS : </b>
+      <br>
+      <textarea name="comment">
+        Type here
+      </textarea>
+      <br><br>
+<a href="courses.html">
+      <button class="myButton" type="button">Submit</button>
+      </a>
+    
+    <button type="button" class="myButton cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<div class="footer">
+  <p> While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.<br>All rights reserved.</p>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
